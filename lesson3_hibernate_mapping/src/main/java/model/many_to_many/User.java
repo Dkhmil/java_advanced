@@ -1,9 +1,8 @@
-package many_to_many;
+package model.many_to_many;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Generated;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;

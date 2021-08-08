@@ -1,4 +1,4 @@
-package many_to_many;
+package model.many_to_many;
 
 
 import lombok.AllArgsConstructor;

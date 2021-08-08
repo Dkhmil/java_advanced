@@ -13,7 +13,14 @@
         <property name="hbm2ddl.auto">update</property>
 
 
+        <mapping class="model.many_to_many.Team"/>
+        <mapping class="model.many_to_many.User"/>
 
+        <mapping class="model.one_to_many.Cart"/>
+        <mapping class="model.one_to_many.Item"/>
+
+        <mapping class="model.one_to_one.Customer"/>
+        <mapping class="model.one_to_one.FinancialOperation"/>
 
 
     </session-factory>
